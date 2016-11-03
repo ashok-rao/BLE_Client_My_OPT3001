@@ -1,3 +1,5 @@
+TL;DR : You can find the ".bin" file to be flashed into the target under the BUILD directory.
+
 # BLE Client for OPT3001
 
 This example demonstrates using the ``GattClient`` API to control BLE client devices.
