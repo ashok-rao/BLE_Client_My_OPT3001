@@ -144,7 +144,7 @@ void triggerRead(const GattWriteCallbackParams *response) {
 void triggerRead(const GattReadCallbackParams *response) {
 	if (response->handle == optCharacteristic.getValueHandle()) {
         optCharacteristic.read();
-		printf("************OPT Characteristic value = ", optCharacteristic);
+		printf("************OPT Characteristic value = ");
 		for(int i=0; i< response-> len; i++) {
 			printf("%02x", response->data[i]);
 		}
